@@ -54,7 +54,7 @@ app.post("/verify-otp", (req, res) => {
 // ----------------- Razorpay Integration -----------------
 const razorpay = new Razorpay({
   key_id:"rzp_Yz0rCw",        
-  key_secret:"9XIsTRvxVV",       
+  key_secret:"9VV",       
 });
 
 // Create Razorpay order
@@ -172,3 +172,4 @@ const PORT = 5000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+
